@@ -1,0 +1,113 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="137" name="TypeScript" />
+        <language minSize="134" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/" />
+          <option value="http://xmlns.jcp.org/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.springframework.org/security/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://primefaces.org/ui" />
+          <option value="http://tiles.apache.org/" />
+          <option value="http://{TENANT}.localhost" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="pycares" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="common.mixins.TeamViewSetMixin.request" />
+          <option value="object.get_queryset" />
+          <option value="common.mixins.WorkspaceViewSetMixin.kwargs" />
+          <option value="object.to_internal_value" />
+          <option value="object.update" />
+          <option value="common.mixins.WorkspaceSerializer.context" />
+          <option value="common.mixins.WorkspaceSerializerMixin.context" />
+          <option value="gcp.models.GCSFileModel.id" />
+          <option value="object.*" />
+          <option value="gcp.models.SignedUrlMixin.gcs" />
+          <option value="gcp.models.SignedUrlMixin.file_path" />
+          <option value="gcp.models.SignedUrlMixin.file_type" />
+          <option value="gcp.models.SignedUrlMixin.id" />
+          <option value="common.mixins.WorkspaceViewSetMixin.request" />
+          <option value="posts.views.PostsBaseViewSet.action" />
+          <option value="common.models.DeleteOldFilesMixin.objects" />
+          <option value="common.models.DeleteOldFilesMixin.id" />
+          <option value="common.models.DeleteOldFilesMixin._meta" />
+          <option value="common.models.CleanupFilesMixin.*" />
+          <option value="collections_app.views.CollectionRecordsBaseViewSet.request" />
+          <option value="collections_app.mixins.ValueRangeField.min_value" />
+          <option value="collections_app.mixins.ValueRangeField.max_value" />
+          <option value="collections_app.mixins.RangeCollectionField.min_value" />
+          <option value="collections_app.mixins.RangeCollectionField.max_value" />
+          <option value="collections_app.fields.MinMaxFieldMixin.error_messages" />
+          <option value="collections_app.fields.MinMaxFieldMixin.validators" />
+          <option value="records.models.Record.save" />
+          <option value="records.models.Record._meta" />
+          <option value="records.models.Record.state" />
+          <option value="database.mixins.RangeCollectionField.max_value" />
+          <option value="database.mixins.RangeCollectionField.min_value" />
+          <option value="users.models.UserAccount.save" />
+          <option value="auth.models.UserAccount.check_password" />
+          <option value="auth.models.UserAccount.save" />
+          <option value="auth.models.UserAccount.set_password" />
+          <option value="common.mixins.TeamSerializerMixin.context" />
+          <option value="config.operations.base.Operation.meta" />
+          <option value="config.operations.fields.FieldOperation.meta" />
+          <option value="records.views.RecordsBaseViewSet.request" />
+          <option value="records.views.RecordsMixinViewSet.filter_queryset" />
+          <option value="records.views.RecordsMixinViewSet.request" />
+          <option value="records.views.RecordsMixinViewSet.kwargs" />
+          <option value="records.views.RecordsMixinViewSet.get_serializer_context" />
+          <option value="files.views.FilesViewSetMixin.get_entity" />
+          <option value="files.views.FilesViewSetMixin.get_serializer_context" />
+          <option value="files.views.FilesViewSetMixin.get_serializer" />
+          <option value="records.files.views.FilesViewSetMixin.get_serializer" />
+          <option value="records.files.views.FilesViewSetMixin.get_entity" />
+          <option value="records.files.views.FilesViewSetMixin.get_serializer_context" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
