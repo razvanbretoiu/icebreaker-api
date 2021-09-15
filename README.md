@@ -5,7 +5,7 @@
 1. Install [pipenv](https://pypi.org/project/pipenv/)
 2. ``pipenv shell`` (to activate the virtual environment)
 3. ```pipenv install``` (to install the dependencies)
-4. ``python ./src/ednpoints.py`` to start the local server
+4. ``python ./src/endpoints.py`` to start the local server
 
 ### Deploy
 
